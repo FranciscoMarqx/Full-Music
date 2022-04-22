@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    background-color: rgb(75, 75, 75);
+}
+
+h1 {
+    /*fonte era monaco*/
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: bold;
+    font-size: 50px;
+    text-align: center;
+    color: rgb(175, 78, 78);
+    background-color: #3f0c0c;
+    margin: 0px;
+    padding: 20px;
+    border: 0;
+}
+
+#festa {
+    width: 100%;
+    border: 0 0 20px;
+}
+
+#player {
+    width: 30px;
+    float: left;
+    position: relative;
+    border: 0 0 0 25px;
+}
+
+#Busca {
+    color: black;
+}
+
+.txtBusca {
+    position: relative;
+    float: right;
+}
+
+#btnBusca {
+    float: right;
+    width: 25px;
+    color: rgb(202, 153, 153);
+}
+
+p {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 35px;
+    color: rgb(70, 1, 1);
+}
+
+
+#procurar {
+    border: 0 25px 25px;
+    width: 30px;
+    float: right;
+}
+
+footer {
+	text-align: center;
+	padding: 40px;
+    background-color: #3f0c0c;
+}
+
+#playe {
+    width: 30px;
+    text-align: center;
+}
+
+.Album li {
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+	vertical-align: top;
+	margin: 0 1.5%;
+	padding: 30px 20px;
+	box-sizing: border-box;
+	border: 2px solid #000000;
+	border-radius: 10px;
+    transition: 0.6s all;
+	cursor: pointer;
+}
+
+.copyright {
+    color: antiquewhite;
+}
