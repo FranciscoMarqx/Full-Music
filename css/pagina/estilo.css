@@ -1,3 +1,5 @@
+@import url(_variaveis.css);
+
 body {
     margin: 0;
     background-color: rgb(75, 75, 75);
@@ -10,7 +12,7 @@ h1 {
     font-size: 50px;
     text-align: center;
     color: rgb(175, 78, 78);
-    background-color: #3f0c0c;
+    background-color: var(--bordo-fonte);
     margin: 0px;
     padding: 20px;
     border: 0;
@@ -29,7 +31,7 @@ h1 {
 }
 
 #Busca {
-    color: black;
+    color: var(--preto);
 }
 
 .txtBusca {
@@ -40,14 +42,14 @@ h1 {
 #btnBusca {
     float: right;
     width: 25px;
-    color: rgb(202, 153, 153);
+    
 }
 
 p {
     font-size: 20px;
     text-align: center;
     margin-top: 35px;
-    color: rgb(70, 1, 1);
+    color: var(--bordo-fonte);
 }
 
 
@@ -60,7 +62,7 @@ p {
 footer {
 	text-align: center;
 	padding: 40px;
-    background-color: #3f0c0c;
+    background-color: var(--bordo-rodape);
 }
 
 #playe {
@@ -76,12 +78,19 @@ footer {
 	margin: 0 1.5%;
 	padding: 30px 20px;
 	box-sizing: border-box;
-	border: 2px solid #000000;
+	border: 2px solid var(--preto);
 	border-radius: 10px;
     transition: 0.6s all;
 	cursor: pointer;
+    box-shadow: 10px 10px 20px var(--preto-transparente);
+    transition-duration: 0.5s;
+    
+}
+
+li:hover {
+    background-color: var(--vermelho-titulo);
 }
 
 .copyright {
-    color: antiquewhite;
+    color: var(--branco);
 }
